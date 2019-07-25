@@ -87,6 +87,18 @@ train_val.prototxt
 ### Snapshot prefixes
 create directory: /scratch/mohanty/AWS_FRESH_RUN/snapshots_final/googLeNet_color-80-20_finetune
 
+## Outputs
+### Same as tran_val.prototxt
+
+
+# deploy.prototxt
+
+## Inputs
+### None?
+
+## Outputs
+### This looks like a template
+
 
 # train.sh
 
@@ -101,7 +113,8 @@ bvlc_googlenet.caffemodel
 download_model_binary.py (caffe repo)
 
 ## Outputs
-### Fill out cafe.log?
+### Fill out caffe.log
+### Other? Accuracy and loss values?
 
 
 # test.sh
